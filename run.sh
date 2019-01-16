@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo Im alive
+cat .git/config
