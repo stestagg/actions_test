@@ -1,4 +1,4 @@
 #!/bin/sh
 
 apk add tree
-tree
+tree -a
