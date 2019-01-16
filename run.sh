@@ -9,6 +9,10 @@ git remote set-url origin $TOKEN_URL
 git checkout test
 echo HI > a.txt
 git add a.txt
+
+git config --global user.name "Actions bot"
+git config --global user.email actions@sta.gg
+
 git commit -m auto test
 
 git push
