@@ -1,3 +1,4 @@
 #!/bin/sh
 
-cat .git/config
+apk add tree
+tree
